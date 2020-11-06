@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Горизонтальная ориентация экрана">
+    </TextView>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="1">
+        </Button>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="2">
+        </Button>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="3">
+        </Button>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="4">
+        </Button>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Международная высшая школа Бад-Хоннеф – это частный университет прикладных наук, который включает в себя кампусы по всей Германии, а также прогрессивное онлайн-отделение. Отделение предлагает полностью дистанционные программы в ряде востребованных сфер. В частности, в вузе есть онлайн-программа бакалавриата в области наук о данных и онлайн-программы магистратуры в области компьютерных наук, искусственного интеллекта и наук о данных. Здесь же предлагаются одни из лучших в Европе онлайн-программы MBA с различными специализациями, такими как общее бизнес-администрирование, маркетинг, ИТ-менеджмент, финансы и бухгалтерский учет, инженерный менеджмент и управление большими данными. Для студентов, получающих образование в формате онлайн, в вузе предусмотрены специальные стипендии."/>
+</LinearLayout>
